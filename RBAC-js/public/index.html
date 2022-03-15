@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>RBAC Demo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" type="image/x-icon" href="<%= htmlWebpackPlugin.options.cdnUrl %>/images/favicon.png">
+  <link rel="preload" as="font"
+    href="<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.eot?#iefix" crossorigin>
+  <link rel="preload" as="font" href="<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.woff2"
+    crossorigin>
+  <link rel="preload" as="font" href="<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.woff"
+    crossorigin>
+  <link rel="preload" as="font" href="<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.ttf"
+    crossorigin>
+  <link rel="preload" as="font"
+    href="<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.svg#MavenPro" crossorigin>
+
+  <style>
+    @font-face {
+      font-family: "Maven Pro";
+      font-style: normal;
+      font-weight: 400;
+      src: url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.eot");
+      /* IE9 Compat Modes */
+      src: local("Maven Pro Regular"), local("MavenPro-Regular"),
+        url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.woff2") format("woff2"),
+        /* Super Modern Browsers */
+        url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.woff") format("woff"),
+        /* Modern Browsers */
+        url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.ttf") format("truetype"),
+        /* Safari, Android, iOS */
+        url("<%= htmlWebpackPlugin.options.cdnUrl %>/fonts/maven-pro-v12-latin-regular.svg#MavenPro") format("svg");
+      /* Legacy iOS */
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>
