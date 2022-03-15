@@ -1,0 +1,17 @@
+{
+  "shape": {
+    "dimension": {
+      "maxWidth": 32
+    }
+  },
+  "svg": {
+    "doctypeDeclaration": false,
+    "xmlDeclaration": false
+  },
+  "mode": {
+    "symbol": {
+      "dest": "src/svg-symbols",
+      "sprite": "svg-symbols.svg"
+    }
+  }
+}
